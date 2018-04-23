@@ -53,8 +53,8 @@ class R < Formula
       "--prefix=#{prefix}",
       "--enable-memory-profiling",
       "--with-x", # SRF - Add X11 support (comment --without-x). Necessary for tcl-tk support.
-      "--with-aqua",
-      "--with-lapack",
+      "--with-cairo",
+      "--with-openblas",
       "--enable-R-shlib",
       "SED=/usr/bin/sed", # don't remember Homebrew's sed shim,
       "--with-tcltk", # SRF - Add tcl-tk support.
